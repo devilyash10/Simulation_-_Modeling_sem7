@@ -23,8 +23,7 @@ For this normal curve with sigma 1.4, the identity above becomes
 
 μ-σ+σValue of XRelative density
 
-Give feedback
-
+![alt text](image-22.png)
 ### **2. What are Variance Reduction Techniques?**
 
 **Definition:** Variance Reduction Techniques are methods used in simulation to reduce the variation in results and make them more accurate and reliable.
@@ -70,6 +69,8 @@ In this method, data is divided into smaller groups, and samples are taken from 
 This ensures that all important groups are represented in the simulation.
 
 *Example:* Dividing customers into age groups and selecting samples from each group.
+
+![alt text](image-23.png)
 
 ### **5. Advantages of Variance Reduction Techniques**
 

@@ -63,42 +63,36 @@ One common method of generating pseudo-random numbers is the **Linear Congruenti
 
 It generates a sequence of numbers using a mathematical formula.
 
-\\[ X\_{n+1}=(aX_n+c)\bmod m \\]
+![alt text](image-7.png)
 
 Where:
 
-- \\(X\_{n+1}\\) = Next random number.
-- \\(X_n\\) = Previous random number.
-- \\(a\\) = Multiplier.
-- \\(c\\) = Increment.
-- \\(m\\) = Modulus.
+![alt text](image-8.png)
 
 The generated number can be converted into a value between 0 and 1:
 
-\\[ R_n=\frac{X_n}{m} \\]
 
-**Example:**
+![alt text](image-9.png)
 
-Suppose:
+**Example Question :**
 
-- \\(a=5\\)
-- \\(c=3\\)
-- \\(m=16\\)
-- Initial seed \\(X_0=7\\)
-
-Using the formula:
-
-\\[ X_1=(5\times7+3)\bmod16 \\]
-
-\\[ X_1=38\bmod16=6 \\]
-
-Next:
-
-\\[ X_2=(5\times6+3)\bmod16 \\]
-
-\\[ X_2=33\bmod16=1 \\]
+![alt text](image-19.png)
+![alt text](image-20.png)
+![alt text](image-21.png)
 
 Therefore, the first two generated numbers are **6 and 1**.
+
+![alt text](image-10.png)
+
+### LCM neumerical 
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
+![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
 
 ### **4. Difference Between True and Pseudo-Random Numbers**
 

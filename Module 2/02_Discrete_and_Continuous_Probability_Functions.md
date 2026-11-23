@@ -37,7 +37,7 @@ The probability of getting any particular number is:
 | 6           | 1/6         |
 
 Here, each outcome has an equal probability.
-
+![alt text](image-6.png)
 **Important properties:**
 
 - The variable takes countable values.
@@ -74,7 +74,7 @@ The exact waiting time can be any value within the range.
 A continuous probability function is represented by a **Probability Density Function (PDF)**.
 
 The probability of a variable falling within a range is calculated as the area under its probability density curve.
-
+![alt text](image-4.png)
 \\[ P(a\leq X\leq b)=\int_a^b f(x)\\,dx \\]
 
 **Important properties:**
@@ -83,7 +83,7 @@ The probability of a variable falling within a range is calculated as the area u
 - It is represented using a probability density function (PDF).
 - The total area under the probability density curve is always 1.
 - The probability of an exact single value is zero.
-
+![alt text](image-5.png)
 \\[ \int\_{-\infty}^{\infty} f(x)\\,dx=1 \\]
 
 **Other examples:**
@@ -152,7 +152,23 @@ The area under the curve represents probability.
 3. Differentiate between discrete and continuous probability functions.
 4. Explain PMF and PDF with suitable examples.
 
+# **2-Mark Exam Answer**
 
+#### Discrete Probability Function:
+ A probability function that assigns probabilities to countable values of a random variable. Example: rolling a dice.
+
+#### Continuous Probability Function:
+ A probability function used for variables that can take any value within a range. Example: waiting time of a customer in a bank.
+
+Super Shortcut Mnemonic
+
+D = Discrete = Digits Countable
+ C = Continuous = Continuous Range
+
+Bas exam mein yaad rakho:
+
+Count → Discrete (PMF)
+ Measure → Continuous (PDF)
 
 Exam tip
 
@@ -161,3 +177,4 @@ Exam tip
 
 
 **Next topic:** Probability Distributions.
+
