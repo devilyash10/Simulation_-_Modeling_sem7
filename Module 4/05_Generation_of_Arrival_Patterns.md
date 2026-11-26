@@ -117,6 +117,7 @@ Iske main types hain:
 
 Random arrival time generate karne ke liye formula use hota hai:
 
+![alt text](image-24.png)
 \\[ T=-\frac{\ln(U)}{\lambda} \\]
 
 Yahan U random number hai aur λ average arrival rate hai.

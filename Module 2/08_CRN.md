@@ -33,30 +33,8 @@ With CRN:
 
 **Common Random Numbers – Working**
 
-**Generate Random Number Sequence**
-
-12, 25, 18, 40, 35
-
-**System A**
-
-Same numbers
-
-12, 25, 18, 40, 35
-
-Calculate waiting time
-
-**System B**
-
-Same numbers
-
-12, 25, 18, 40, 35
-
-Calculate waiting time
-
-**Compare Both Results**
-
-Fairer comparison with reduced variation
 ![alt text](image-2.png)
+
 ### **4. Advantages of CRN**
 
 1. **Reduces Variance:** Helps reduce variation when comparing simulation systems.

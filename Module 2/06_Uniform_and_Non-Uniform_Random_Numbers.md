@@ -91,15 +91,6 @@ Let's understand with a banking example.
 
 **Step 4:** Use these values to run the bank simulation.
 ![alt text](image-1.png)
-**Simulation Process 🏦**
-
-**Generate Uniform Random Numbers**
-
-**Apply Probability Distribution**
-
-**Generate Non-Uniform Values**
-
-**Run the Simulation**
 
 ## **6. Importance in Simulation**
 

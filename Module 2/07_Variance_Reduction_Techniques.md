@@ -13,15 +13,7 @@ Before understanding variance reduction, let's understand variance.
 
 For example, suppose we simulate the waiting time of customers in a bank several times. If the results are very different in every run, the variance is high.
 ![alt text](image.png)
-\\(Var(X) = E(X^2) - [E(X)]^2\\)
 
-For this normal curve with sigma 1.4, the identity above becomes
-
-\\(Var(X)=\sigma^2=(\text{1.4})^2=\text{1.96}\\)
-
-\\(\sigma\\)
-
-μ-σ+σValue of XRelative density
 
 ![alt text](image-22.png)
 ### **2. What are Variance Reduction Techniques?**

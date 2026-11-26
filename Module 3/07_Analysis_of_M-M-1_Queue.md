@@ -57,7 +57,9 @@ In simple words:
 | Wq         | Average waiting time in the queue         |
 
 **Important condition for stability:**
+
 ![alt text](image-20.png)
+
 \\[ \boxed{\lambda < \mu} \\]
 
 The arrival rate must be less than the service rate. Otherwise, the queue will keep growing and a stable system will not exist.
@@ -67,28 +69,34 @@ The arrival rate must be less than the service rate. Otherwise, the queue will k
 These formulas are very important for numerical problems.
 
 **1. Server Utilization**
+
 ![alt text](image-21.png)
 \\[ \rho = \frac{\lambda}{\mu} \\]
 
 It represents the percentage of time the server is busy.
 
 **2. Probability that the system is empty**
+
 ![alt text](image-22.png)
 \\[ P_0 = 1-\rho \\]
 
 **3. Average number of customers in the system**
+
 ![alt text](image-23.png)
 \\[ L_s = \frac{\lambda}{\mu-\lambda} \\]
 
 **4. Average number of customers in the queue**
+
 ![alt text](image-24.png)
 \\[ L_q = \frac{\lambda^2}{\mu(\mu-\lambda)} \\]
 
 **5. Average time spent in the system**
+
 ![alt text](image-25.png)
 \\[ W_s = \frac{1}{\mu-\lambda} \\]
 
 **6. Average waiting time in the queue**
+
 ![alt text](image-26.png)
 \\[ W_q = \frac{\lambda}{\mu(\mu-\lambda)} \\]
 
@@ -108,6 +116,7 @@ It represents the percentage of time the server is busy.
 ![alt text](image-27.png)
 
 Since λ is less than μ, the system is stable.
+
 ![alt text](image-28.png)
 ![alt text](image-29.png)
 ![alt text](image-30.png)
@@ -146,7 +155,9 @@ Since λ is less than μ, the system is stable.
 - Wq = Average waiting time in the queue.
 
 **Important relationship to remember:**
+
 ![alt text](image-31.png)
+
 These are called Little's Law relationships.
 
 ## **Important Exam Questions**
